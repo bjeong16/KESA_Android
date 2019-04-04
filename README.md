@@ -1,5 +1,12 @@
 # KESA_ANDROID
- 
+
+KESA (Korean Engineering Student Association) 에서 진행하는 첫 프로젝트
+
+## Project Description
+
+안드로이드 플랫폼에서 날씨 애플리케이션 구축.
+User Interface, Design 등을 담당할 Front-End 팀과 API, Database 구축 등을 담당할 Back-End 팀 구분
+
 ### 1. Front End? Back End?
 ***
 
@@ -20,13 +27,32 @@
 
 2.2) Java 의 기본
 > Java 는 C 와 다른 OOP (Object Oriented Programming; 객체 지향 프로그래밍) 언어이다. 대표적인 OOP 언어로는 Java, Python, C++ 가 있다. C 는 Procedural Programming Language 이다. 간단히 정리하자면 OOP 에서는 여러개의 객체가 한 프로그램을 이루어서 완성시킨다. 대표적인 OOP 의 기능에는 Class 와 Instance, 그리고 Object 라는 개념이 있다. 그리고 OOP 를 설명하는 4대 요소가 있다. 
-
 1. Inheritance
 2. Encapsulation
 3. Polymorphism
-4. Abstract
-    
+4. Abstract    
 <https://stackify.com/oops-concepts-in-java/>    
-더 자세한 설명을 위해서는 위 링크 참코
+4대 요소에 대한 더 자세한 설명을 위해서는 위 링크 참코
 
 2.3) Class 설명
+> OOP 의 핵심 자료 형태는 Class 이다. 여러개의 Class 들이 합쳐져서 한 프로그램을 구축한다. Class 는 한개의 
+
+### 3. 필요한 소프트웨어 설치
+***
+
+3.1) JAVA 설치
+
+컴퓨터에서 자바를 사용하기 위해서는 JDK (Java Development Kit) 를 설치해야된다. <https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html> 
+링크 클릭 후 운영체제에 맞는 옵션을 다운로드 (JAVA SE Development Kit 8u201 에서 Windows or MAC OS X)
+
+3.2) IDE 설치
+
+해당 프로젝트에는 사용하지 않지만, JAVA IDE (Integrated Development Environment) 를 설치하는 것도 추천한다.
+IDE 란 개발을 조금 더 편하게 할수 있도록 하는 소프트웨어다. JAVA IDE 로는 대표적으로 Eclipse, IntelliJ (Jetbrains) 가 있다.
+
+3.3) Android Studio 설치
+
+해당 프로젝트에 필요한 IDE. Android 라이브러리를 지원해주고, Android Framework 를 사용할수 있도록 도움을 주는 Google 공식 IDE 이다.
+<https://developer.android.com/studio#downloads> 
+링크 클릭 후 운영체제에 맞는 옵션을 다운로드
+
